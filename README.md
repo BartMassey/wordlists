@@ -2,8 +2,8 @@
 
 These word lists are useful for puzzle solvers and the like.
 
-* `freq-words.txt.gz`, `freq.txt.gz`: *Frequently Used Word
-  List*__ This list of about 52,000 words is based on Peter
+* `freq-words.txt.gz`, `freq.txt.gz`: *Frequently Used Word List*  
+  This list of about 52,000 words is based on Peter
   Norvig's 300,000 word ngram frequency list, which was
   built from Google's *Web Trillion Word Corpus*; this list
   was filtered to include only dictionary words. Each word
