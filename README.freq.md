@@ -1,0 +1,86 @@
+# Frequently Used Word List
+Copyright (c) 2019 Bart Massey
+
+The files `freq.txt.gz` and `freq-words.txt.gz` provided
+here are my attempt to provide a "frequently used word
+list".
+
+`freq.txt.gz` currently contains about 58,000 words and
+their frequencies, seperated on the line by a space
+character; `freq-list.txt.gz` is the same words without the
+frequencies.
+
+## Rationale
+
+This list represents my attempt to provide a "good"
+dictionary for puzzles, etc. This list attempts to meet
+several criteria:
+
+* The list should contain only American spellings of
+  American English words. (A British version of this list
+  would be a good addition: patches welcome.)
+
+* Proper names and foreign words should be excluded from the
+  list.
+
+* Words in this list should be "common", such that they
+  might reasonably be found in writing intended for the
+  general public.
+
+## Provenance and Methodology
+
+In an attempt to achieve the list's rationale, I have
+proceeded as follows:
+
+* Obtained a copy of EOWL: see [`README.md`](README.md) for
+  details.
+
+* Obtained a copy of SCOWL: see [`README.md`](README.md) for
+  details. This list is larger than the one in this
+  distribution: it was constructed using the SCOWL
+  [webapp](http://app.aspell.net/create) with parameters
+
+          diacritic: keep
+          max_size: 70
+          max_variant: 1
+          special: <none>
+          spelling: US
+
+  using the Git commit from `Thu Aug 24 14:36:19 2017 -0400
+  [2614b88]`.
+
+
+* Obtained a copy of
+  [`count_1w.txt`](http://norvig.com/ngrams/count_1w.txt)
+  from Peter Norvig's
+  [Natural Language Corpus Data](http://norvig.com/ngrams/). This
+  data was in turn derived from the
+  [*Google Web Trillion Word Corpus*](http://tinyurl.com/ngrams).
+  The file contains "the 1/3 million most frequent words,
+  all lowercase, with counts."  This data is made available
+  by Norvig under the MIT License.
+
+* Wrote a Python 3 program to merge these lists as follows:
+
+  * Exclude all capitalized, non-ASCII, and
+    non-alphabetic-containing words from each list.
+  
+  * Exclude all one-letter words from each list.
+
+  * Intersect all three lists, keeping only words present in
+    all three.
+
+  * Add back "a" and "i" (lowercase) to the result.
+
+  * Save the resulting words and their counts, with word and
+    count seperated by an ASCII space and UNIX line endings
+    (ASCII LF).
+
+A scan of the resulting list looks reasonably sane, and
+seems to match the goals set forth in the rationale.
+
+## License
+
+This work is made available under the
+[MIT License](https://opensource.org/licenses/mit-license.php). Please
+see the link for license terms.
