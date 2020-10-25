@@ -29,11 +29,13 @@ These word lists are useful for puzzle solvers and the like.
   distribution contains copyright and license as well as
   other information.
 
-* `yawl.txt.gz`, `yawl-sig.txt.gz`: *Yet Another Word List*  
+* `yawl.txt.gz`, `yawl-sig.txt.gz`, `yawl-all.txt.gz`: *Yet Another Word List*  
   From Aaron Bull Schaefer's GitHub
   [archive](https://github.com/elasticdog/yawl) of Mendel
   Leo Cooper's word list built with the assistance of Alan
-  Beale. The files
+  Beale. `yawl-sig.txt` is a small list of optional words
+  that might be added to `yawl.txt`: `yawl-all.txt.gz` is
+  the sorted concatenation of these lists.  The files
   [`README.yawl-official.md`](README.yawl-official.md) and
   [`README.yawl-original.md`](README.yawl-original.md) in
   this distribution contain copyright and license as well as
