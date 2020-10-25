@@ -22,12 +22,15 @@ These word lists are useful for puzzle solvers and the like.
   distribution contains copyright and license as well as
   other information.
 
-* `scowl.txt.gz`: *Spell Checker Oriented Word List (SCOWL)*  
+* `scowl.txt.gz`, `scowl-`*nn*`.txt.gz`: *Spell Checker Oriented Word List (SCOWL)*  
   Kevin Atkinson compiled this list from a variety of
-  sources. The list here is the "size 40 american" list.
-  The file [`README.scowl-official.txt`](README.scowl-official.txt) in this
-  distribution contains copyright and license as well as
-  other information.
+  sources. The default list here is the "size 60 american"
+  list.  The file
+  [`README.scowl-official.txt`](README.scowl-official.txt)
+  in this distribution contains copyright and license as
+  well as other information. The files
+  `README.scowl-`*nn*`.txt` contain source and settings
+  information for the various dictionaries.
 
 * `yawl.txt.gz`, `yawl-sig.txt.gz`, `yawl-all.txt.gz`: *Yet Another Word List*  
   From Aaron Bull Schaefer's GitHub

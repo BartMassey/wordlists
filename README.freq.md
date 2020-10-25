@@ -32,7 +32,7 @@ several criteria:
 In an attempt to achieve the list's rationale, I have
 proceeded as follows:
 
-* Obtained a copy of EOWL: see [`README.md`](README.md) for
+* Obtained a copy of YAWL: see [`README.md`](README.md) for
   details.
 
 * Obtained a copy of SCOWL: see [`README.md`](README.md) for
@@ -60,7 +60,8 @@ proceeded as follows:
   all lowercase, with counts."  This data is made available
   by Norvig under the MIT License.
 
-* Wrote a Python 3 program to merge these lists as follows:
+* Wrote a Python 3 program [`merge.py`](merge.py) to merge
+  these lists as follows:
 
   * Exclude all capitalized, non-ASCII, and
     non-alphabetic-containing words from each list.
