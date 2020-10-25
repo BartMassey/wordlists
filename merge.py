@@ -14,11 +14,11 @@ def wordset(fname):
             ws.add(ww)
     return ws
 
-freqs = sys.argv[1]
-ws = wordset(sys.argv[2])
-if len(sys.argv) > 2:
-    for fname in sys.argv[3:]:
-        ws &= wordset(fname)
+freqs = "count_1w.txt"
+scowl = wordset("scowl-60.txt")
+yawl = wordset("yawl-all.txt")
+eowl = wordset("eowl.txt")
+ws = scowl & (yawl | eowl)
 ws.add("a")
 ws.add("i")
     

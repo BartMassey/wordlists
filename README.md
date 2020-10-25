@@ -3,11 +3,11 @@
 These word lists are useful for puzzle solvers and the like.
 
 * `freq-words.txt.gz`, `freq.txt.gz`: *Frequently Used Word List*  
-  This list of about 52,000 words is based on Peter
-  Norvig's 300,000 word ngram frequency list, which was
-  built from Google's *Web Trillion Word Corpus*; this list
-  was filtered to include only dictionary words. Each word
-  is accompanied in `freq.txt.gz` by its frequency of use in
+  This list of about 52,000 words is based on Peter Norvig's
+  300,000 word ngram frequency list, which was built from
+  Google's *Web Trillion Word Corpus*; this list was
+  filtered to include only "reasonable" words. Each word is
+  accompanied in `freq.txt.gz` by its frequency of use in
   the Google corpus; `freq-words.txt.gz` contains only the
   words. The file [`README.freq.md`](README.freq.md) in this
   distribution contains copyright and license as well as
@@ -17,10 +17,11 @@ These word lists are useful for puzzle solvers and the like.
 * `eowl.txt.gz`: *The English Open Word List (EOWL)*  
   This list is compiled by Ken Loge based on the UK Advanced
   Cryptics Dictionary by J. Ross Beresford. It is reasonably
-  comprehensive. The file
-  [`README.eowl-official.html`](README.eow-official.html) in this
-  distribution contains copyright and license as well as
-  other information.
+  comprehensive, with the significant limitation that it
+  only includes words of 10 or fewer letters. The file
+  [`README.eowl-official.html`](README.eow-official.html) in
+  this distribution contains copyright and license as well
+  as other information.
 
 * `scowl.txt.gz`, `scowl-`*nn*`.txt.gz`: *Spell Checker Oriented Word List (SCOWL)*  
   Kevin Atkinson compiled this list from a variety of

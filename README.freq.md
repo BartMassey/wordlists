@@ -5,8 +5,8 @@ The files `freq.txt.gz` and `freq-words.txt.gz` provided
 here are my attempt to provide a "frequently used word
 list".
 
-`freq.txt.gz` currently contains about 58,000 words and
-their frequencies, seperated on the line by a space
+`freq.txt.gz` currently contains about 60,000 words and
+their frequencies, separated on the line by a space
 character; `freq-words.txt.gz` is the same words without the
 frequencies.
 
@@ -35,19 +35,11 @@ proceeded as follows:
 * Obtained a copy of YAWL: see [`README.md`](README.md) for
   details.
 
-* Obtained a copy of SCOWL: see [`README.md`](README.md) for
-  details. This list is larger than the one in this
-  distribution: it was constructed using the SCOWL
-  [webapp](http://app.aspell.net/create) with parameters
+* Obtained a copy of EOWL: see [`README.md`](README.md) for
+  details.
 
-          diacritic: keep
-          max_size: 70
-          max_variant: 1
-          special: <none>
-          spelling: US
-
-  using the Git commit from `Thu Aug 24 14:36:19 2017 -0400
-  [2614b88]`.
+* Obtained a copy of SCOWL-60: see [`README.md`](README.md) for
+  details.
 
 
 * Obtained a copy of
@@ -68,8 +60,9 @@ proceeded as follows:
   
   * Exclude all one-letter words from each list.
 
-  * Intersect all three lists, keeping only words present in
-    all three.
+  * Exclude all words that do not appear in the
+    Google/Norvig list, the SCOWL list, and at least one of
+    the YAWL and EOWL lists.
 
   * Add back "a" and "i" (lowercase) to the result.
 
