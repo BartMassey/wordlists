@@ -7,7 +7,7 @@ list".
 
 `freq.txt.gz` currently contains about 58,000 words and
 their frequencies, seperated on the line by a space
-character; `freq-list.txt.gz` is the same words without the
+character; `freq-words.txt.gz` is the same words without the
 frequencies.
 
 ## Rationale
