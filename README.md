@@ -18,15 +18,25 @@ These word lists are useful for puzzle solvers and the like.
   This list is compiled by Ken Loge based on the UK Advanced
   Cryptics Dictionary by J. Ross Beresford. It is reasonably
   comprehensive. The file
-  [`README.eowl.html`](README.eowl.html) in this
+  [`README.eowl-official.html`](README.eow-official.html) in this
   distribution contains copyright and license as well as
   other information.
 
 * `scowl.txt.gz`: *Spell Checker Oriented Word List (SCOWL)*  
   Kevin Atkinson compiled this list from a variety of
   sources. The list here is the "size 40 american" list.
-  The file [`README.scowl.txt`](README.scowl.txt) in this
+  The file [`README.scowl-official.txt`](README.scowl-official.txt) in this
   distribution contains copyright and license as well as
+  other information.
+
+* `yawl.txt.gz`, `yawl-sig.txt.gz`: *Yet Another Word List*  
+  From Aaron Bull Schaefer's GitHub
+  [archive](https://github.com/elasticdog/yawl) of Mendel
+  Leo Cooper's word list built with the assistance of Alan
+  Beale. The files
+  [`README.yawl-official.md`](README.yawl-official.md) and
+  [`README.yawl-original.md`](README.yawl-original.md) in
+  this distribution contain copyright and license as well as
   other information.
 
 To use these lists, `gunzip` them. The result will have UNIX
