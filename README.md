@@ -47,7 +47,8 @@ These word lists are useful for puzzle solvers and the like.
 
 To use these lists, `gunzip` them. The result will have UNIX
 line-endings (ASCII LF) which may need help on non-UNIX
-boxes.
+boxes. The shell script `mkdict.sh` may be useful in
+installing these on your machine.
 
-The official Scrabble&trade; SOWPODS list is not made
-available here due to copyright concerns.
+The Scrabble&trade; SOWPODS list is not made available here
+due to copyright concerns.
