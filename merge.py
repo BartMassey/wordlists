@@ -30,9 +30,13 @@ with open(freqs, 'r') as f:
             continue
         n = int(n)
         result.append((n, w))
-result.sort(reverse=True)
 
-with open("freq.txt", 'w') as f, open("freq-word.txt", 'w') as fw:
+result.sort(key=lambda r: r[0], reverse=True)
+with open("freq.txt", 'w') as f:
     for n, w in result:
         print(w, n, file=f)
+
+result.sort(key=lambda r: r[1])
+with open("freq-word.txt", 'w') as fw:
+    for _, w in result:
         print(w, file=fw)
