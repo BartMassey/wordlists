@@ -9,7 +9,7 @@ These word lists are useful for puzzle solvers and the like.
   filtered to include only "reasonable" words. Each word is
   accompanied in `freq.txt.gz` by its frequency of use in
   the Google corpus; `freq-words.txt.gz` contains only the
-  words. The file [`README.freq.md`](README.freq.md) in this
+  words. The file [`README-freq.md`](README-freq.md) in this
   distribution contains copyright and license as well as
   other information, including a detailed description of
   list construction.
@@ -19,7 +19,7 @@ These word lists are useful for puzzle solvers and the like.
   Cryptics Dictionary by J. Ross Beresford. It is reasonably
   comprehensive, with the significant limitation that it
   only includes words of 10 or fewer letters. The file
-  [`README.eowl-official.html`](README.eow-official.html) in
+  [`README-eowl-official.html`](README-eow-official.html) in
   this distribution contains copyright and license as well
   as other information.
 
@@ -27,10 +27,10 @@ These word lists are useful for puzzle solvers and the like.
   Kevin Atkinson compiled this list from a variety of
   sources. The default list here is the "size 60 american"
   list.  The file
-  [`README.scowl-official.txt`](README.scowl-official.txt)
+  [`README-scowl-official.txt`](README-scowl-official.txt)
   in this distribution contains copyright and license as
   well as other information. The files
-  `README.scowl-`*nn*`.txt` contain source and settings
+  `README-scowl-`*nn*`.txt` contain source and settings
   information for the various dictionaries.
 
 * `yawl.txt.gz`, `yawl-sig.txt.gz`, `yawl-all.txt.gz`: *Yet Another Word List*  
@@ -40,8 +40,8 @@ These word lists are useful for puzzle solvers and the like.
   Beale. `yawl-sig.txt` is a small list of optional words
   that might be added to `yawl.txt`: `yawl-all.txt.gz` is
   the sorted concatenation of these lists.  The files
-  [`README.yawl-official.md`](README.yawl-official.md) and
-  [`README.yawl-original.md`](README.yawl-original.md) in
+  [`README-yawl-official.md`](README-yawl-official.md) and
+  [`README-yawl-original.md`](README-yawl-original.md) in
   this distribution contain copyright and license as well as
   other information.
 
