@@ -32,25 +32,9 @@ several criteria:
 In an attempt to achieve the list's rationale, I have
 proceeded as follows:
 
-* Obtained a copy of YAWL: see [`README.md`](README.md) for
-  details.
-
-* Obtained a copy of EOWL: see [`README.md`](README.md) for
-  details.
-
-* Obtained a copy of SCOWL-60: see [`README.md`](README.md) for
-  details.
-
-
-* Obtained a copy of
-  [`count_1w.txt`](http://norvig.com/ngrams/count_1w.txt)
-  from Peter Norvig's
-  [Natural Language Corpus Data](http://norvig.com/ngrams/). This
-  data was in turn derived from the
-  [*Google Web Trillion Word Corpus*](http://tinyurl.com/ngrams).
-  The file contains "the 1/3 million most frequent words,
-  all lowercase, with counts."  This data is made available
-  by Norvig under the MIT License.
+* Obtained a copy of `count_1w.txt`, YAWL, EOWL, SCOWL, and
+  ENABLE 2K: see [`README.md`](README.md) for
+  details on the word lists.
 
 * Wrote a Python 3 program [`merge.py`](merge.py) to merge
   these lists as follows:
@@ -62,7 +46,7 @@ proceeded as follows:
 
   * Exclude all words that do not appear in the
     Google/Norvig list, the SCOWL list, and at least one of
-    the YAWL and EOWL lists.
+    the YAWL, EOWL and ENABLE 2K lists.
 
   * Add back "a" and "i" (lowercase) to the result.
 

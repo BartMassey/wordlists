@@ -14,6 +14,17 @@ These word lists are useful for puzzle solvers and the like.
   other information, including a detailed description of
   list construction.
 
+* `count_1w.txt.gz`: This is from Peter Norvig's
+  [Natural Language Corpus Data](http://norvig.com/ngrams/). This
+  data was in turn derived from the
+  [*Google Web Trillion Word Corpus*](http://tinyurl.com/ngrams).
+  The file contains "the 1/3 million most frequent words,
+  all lowercase, with counts."  This data is made available
+  by Norvig under the MIT License.
+
+  The file [`README-count_1w.md`](README-count_1w.md) in
+  this distribution is taken from Peter Norton's page.
+
 * `eowl.txt.gz`: *The English Open Word List (EOWL)*  
   This list is compiled by Ken Loge based on the UK Advanced
   Cryptics Dictionary by J. Ross Beresford. It is reasonably
@@ -31,7 +42,8 @@ These word lists are useful for puzzle solvers and the like.
   in this distribution contains copyright and license as
   well as other information. The files
   `README-scowl-`*nn*`.txt` contain source and settings
-  information for the various dictionaries.
+  information for the various dictionaries: the information
+  for the default `scowl.txt.gz` is in `README-scowl-60.txt`.
 
 * `yawl.txt.gz`, `yawl-sig.txt.gz`, `yawl-all.txt.gz`: *Yet Another Word List*  
   From Aaron Bull Schaefer's GitHub
@@ -49,7 +61,7 @@ These word lists are useful for puzzle solvers and the like.
   The Enhanced North American Benchmark LExicon (ENABLE)
   word list was constructed as a high-quality alternative to
   copyrighted official Scrabble dictionaries by Alan Beale
-  and others: it is generally more permissive than EOWL,
+  and others. It is generally more permissive than EOWL,
   although it is not a superset.
   
   This "2K" edition is the latest available edition I am
@@ -69,3 +81,8 @@ installing these on your machine.
 
 The Scrabble&trade; SOWPODS/NASPA list and the Collins list
 are not made available here due to copyright concerns.
+
+## License
+
+This work is made available under the "MIT License". See the
+file `LICENSE.txt` in this distribution for license terms.

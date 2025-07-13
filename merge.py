@@ -15,10 +15,11 @@ def wordset(fname):
     return ws
 
 freqs = "count_1w.txt"
-scowl = wordset("scowl-60.txt")
+scowl = wordset("scowl.txt")
 yawl = wordset("yawl-all.txt")
 eowl = wordset("eowl.txt")
-ws = scowl & (yawl | eowl)
+enable2k = wordset("enable2k.txt")
+ws = scowl & (yawl | eowl | enable2k)
 ws.add("a")
 ws.add("i")
     
