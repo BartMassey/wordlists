@@ -45,10 +45,27 @@ These word lists are useful for puzzle solvers and the like.
   this distribution contain copyright and license as well as
   other information.
 
+* `enable2k.txt.gz`: *ENABLE 2K Word List*  
+  The Enhanced North American Benchmark LExicon (ENABLE)
+  word list was constructed as a high-quality alternative to
+  copyrighted official Scrabble dictionaries by Alan Beale
+  and others: it is generally more permissive than EOWL,
+  although it is not a superset.
+  
+  This "2K" edition is the latest available edition I am
+  aware of, downloaded from the Internet Archive
+  [here](https://web.archive.org/web/20090122025747/http://personal.riverusers.com/~thegrendel/enable2k.zip).
+  This list was placed in the Public Domain by its creators.
+
+  The file [`README-enable2k.txt`](README-enable2k.txt) in this
+  distribution is taken from the official distribution of
+  ENABLE 2K. It contains copyright and license as well as
+  other information.
+
 To use these lists, `gunzip` them. The result will have UNIX
 line-endings (ASCII LF) which may need help on non-UNIX
 boxes. The shell script `mkdict.sh` may be useful in
 installing these on your machine.
 
-The Scrabble&trade; SOWPODS list is not made available here
-due to copyright concerns.
+The Scrabble&trade; SOWPODS/NASPA list and the Collins list
+are not made available here due to copyright concerns.
